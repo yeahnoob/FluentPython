@@ -7,7 +7,7 @@ class Vector:
         self.y = y
 
     def __repr__(self):
-        return '向量(%r, %r)' % (self.x, self.y)
+        return '向量 Vector(%r, %r)' % (self.x, self.y)
 
     def __abs__(self):
         return hypot(self.x, self.y)
